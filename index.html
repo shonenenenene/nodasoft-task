@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>blocks</title>
+  </head>
+  <body>
+    <div class="wrapper">
+        <div class="container">      
+          <header class="header">
+            <button class="open-popup-btn" type="button" onclick=window.dialog.showModal()>
+              Open pop-up button
+            </button>
+          </header>
+          <dialog class="pop-up" id="dialog" aria-label="Pop-up window">
+            <button class="close-popup-btn" type="button" onclick=window.dialog.close()>X</button>
+            <p class="pop-up-content">Pop-up</p>
+          </dialog>
+          <section class="blocks">
+            <div class="block-1 block"></div>
+            <div class="block-2 block"></div>
+            <div class="block-3 block"></div>
+            <div class="block-4 block"></div>
+            <div class="block-5 block"></div>
+          </section>
+          <section class="cards">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+          </section>
+          <footer class="footer"></footer>
+        </div>
+    </div>
+</div>
+</html>
